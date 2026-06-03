@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "kenya-mcp-hub"
+version = "0.1.0"
+description = "Registry and CLI for East Africa Model Context Protocol servers"
+license = {text = "MIT"}
+keywords = ["kenya","mcp","east-africa","ai-agents","registry"]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+kenya-mcp-hub = "kenya_mcp_hub.cli:main"
