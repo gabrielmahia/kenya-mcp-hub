@@ -1,0 +1,36 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/1.0.0/server.json",
+  "name": "kenya-mcp-hub",
+  "version": "0.1.0",
+  "description": "Registry and CLI for East Africa Model Context Protocol servers. Unified gateway for all 30+ Kenya MCP servers.",
+  "license": "MIT",
+  "homepage": "https://gabrielmahia.github.io",
+  "author": {
+    "name": "Gabriel Mahia",
+    "email": "contact@aikungfu.dev",
+    "url": "https://gabrielmahia.github.io"
+  },
+  "keywords": [
+    "kenya",
+    "mcp",
+    "east-africa",
+    "registry",
+    "cli",
+    "ai-agents",
+    "africa"
+  ],
+  "categories": [
+    "Government Data",
+    "Open Data",
+    "Research & Data"
+  ],
+  "links": {
+    "github": "https://github.com/gabrielmahia/kenya-mcp-hub",
+    "pypi": "https://pypi.org/project/kenya-mcp-hub"
+  },
+  "installation": {
+    "type": "pip",
+    "package": "kenya-mcp-hub",
+    "command": "pip install kenya-mcp-hub"
+  }
+}
