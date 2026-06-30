@@ -37,7 +37,7 @@ This hub welcomes East African MCP servers. Open a PR with:
 
 ## Strategic Context
 
-Gabriel Mahia is the first documented engineer to implement all three major AI agent protocols (MCP, A2A, Google ADK) for East Africa. This hub aggregates that infrastructure for the broader developer community.
+This hub provides discovery and documentation for AI agent protocol implementations for East Africa — MCP, A2A, and Google ADK. This hub aggregates that infrastructure for the broader developer community.
 
 See: [mpesa-mcp PyPI](https://pypi.org/project/mpesa-mcp/) | [gabrielmahia GitHub](https://github.com/gabrielmahia)
 
