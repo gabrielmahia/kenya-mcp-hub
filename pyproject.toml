@@ -13,3 +13,10 @@ dependencies = []
 
 [project.scripts]
 kenya-mcp-hub = "kenya_mcp_hub.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gabrielmahia/kenya-mcp-hub"
+Documentation = "https://github.com/gabrielmahia/nairobi-stack"
+"MCP Registry" = "https://registry.modelcontextprotocol.io"
+Datasets = "https://huggingface.co/gmahia"
+Evaluation = "https://github.com/gabrielmahia/kipimo"
