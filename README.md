@@ -9,8 +9,8 @@ Every AI agent protocol server built for East Africa, in one place. Connect any 
 | Server | Domain | PyPI | Description |
 |--------|--------|------|-------------|
 | [mpesa-mcp](https://github.com/gabrielmahia/mpesa-mcp) | 💰 FinTech | `pip install mpesa-mcp` | M-PESA Daraja API as MCP tools |
-| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | 💧 Water | `pip install wapimaji-mcp` | Kenya water infrastructure data |
-| [swahili-health-mcp](https://github.com/gabrielmahia/swahili-health-mcp) | 🏥 Health | `pip install swahili-health-mcp` | Kenya DHIS2 health data |
+| [wapimaji-mcp](https://github.com/gabrielmahia/wapimaji-mcp) | 💧 Water | `pip install wapimaji-mcp` | Simulated drought phases and SMS alerts (no real NDMA data yet) |
+| [swahili-health-mcp](https://github.com/gabrielmahia/swahili-health-mcp) | 🏥 Health | `pip install swahili-health-mcp` | Kenya DHS 2022 county health indicators |
 | [kenya-legal-rag](https://github.com/gabrielmahia/kenya-legal-rag) | ⚖️ Legal | `pip install kenya-legal-rag` | Kenya legal documents RAG |
 
 ## Quickstart
@@ -45,13 +45,13 @@ See: [mpesa-mcp PyPI](https://pypi.org/project/mpesa-mcp/) | [gabrielmahia GitHu
 
 *gabrielmahia.ai | MIT License | East Africa AI Infrastructure*
 
-<!-- interconnect:v1 -->
+<!-- interconnect:v2 -->
 ## Part of the East Africa coordination stack
 
-- **Install & run:** `pip install reli-cli && reli list` — 33 MCP servers on the [official MCP Registry](https://registry.modelcontextprotocol.io) under `io.github.gabrielmahia`
+- **Install & run:** `pip install reli-cli && reli list` — the MCP servers on the [official MCP Registry](https://registry.modelcontextprotocol.io) under `io.github.gabrielmahia`
 - **Evaluate any model on Swahili agent tasks:** [kipimo](https://github.com/gabrielmahia/kipimo) · [dataset](https://huggingface.co/datasets/gmahia/kipimo) · [leaderboard](https://huggingface.co/spaces/gmahia/kipimo-leaderboard)
 - **Coordinate across servers:** [africa-coord-bus](https://pypi.org/project/africa-coord-bus/) — offline-first event bus with a built-in Kenya routing table
 - **Datasets:** [huggingface.co/gmahia](https://huggingface.co/gmahia) · **Docs hub:** [nairobi-stack](https://github.com/gabrielmahia/nairobi-stack)
 
 Model-agnostic by design: closed APIs, open-weight models, and small distilled models are all first-class citizens.
-<!-- /interconnect:v1 -->
+<!-- /interconnect:v2 -->
